@@ -28,7 +28,11 @@ git shortlog -se
 <!-- 10 -->
 git blame [nombre-archivo]
 <!-- 11 -->
+git reset --soft HEAD~1
+git reset --mixed HEAD
+git reset --hard HEAD~1
 <!-- 12 -->
+git revert [hash]
 <!-- 13 -->
 git show
 git show [hash]
