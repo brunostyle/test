@@ -33,7 +33,6 @@ git reset --mixed HEAD
 git reset --hard HEAD~1
 <!-- 12 -->
 git revert [hash]
-Esto estas mal
 <!-- 13 -->
 git show
 git show [hash]
