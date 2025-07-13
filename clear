@@ -1,0 +1,105 @@
+fab6645d (brunostyle 2025-07-07 05:43:56 -0300   1) <!-- 1 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300   2) git init  
+fab6645d (brunostyle 2025-07-07 05:43:56 -0300   3) <!-- 2 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300   4) git clone [url]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300   5) git clone --depth [numero] [url]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300   6) git clone --branch [nombre-rama] [url]  
+fab6645d (brunostyle 2025-07-07 05:43:56 -0300   7) <!-- 3 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300   8) git config --global --list  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300   9) git config --global -e  
+fab6645d (brunostyle 2025-07-07 05:43:56 -0300  10) <!-- 4 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  11) git add [nombre-archivo]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  12) git add .  
+fab6645d (brunostyle 2025-07-07 05:43:56 -0300  13) <!-- 5 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  14) git restore [nombre-archivo]  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  15) <!-- 6 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  16) git commit -m [mensaje]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  17) git commit -am [mensaje]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  18) git commit --amend -m [mensaje]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  19) git commit --amend --no-edit  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  20) <!-- 7 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  21) git status  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  22) git status --short  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  23) <!-- 8 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  24) git reset --soft HEAD~1  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  25) git reset --mixed HEAD  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  26) git reset --hard HEAD~1  
+6f26f5aa (brunostyle 2025-07-07 06:31:42 -0300  27) <!-- 9 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  28) git revert [hash]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  29) git revert --continue  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  30) git revert --abort  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  31) git revert --no-edit [hash]  
+6f26f5aa (brunostyle 2025-07-07 06:31:42 -0300  32) <!-- 10 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  33) git log  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  34) git log -[numero]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  35) git log --oneline  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  36) git log --graph  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  37) git log --all  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  38) git log --author=[autor]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  39) git log --grep=[palabra]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  40) git log --since=["DD-MM-YYYY"] --until=["DD-MM-YYYY"]  
+6f26f5aa (brunostyle 2025-07-07 06:31:42 -0300  41) <!-- 11 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  42) git shortlog  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  43) git shortlog -se  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  44) <!-- 12 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  45) git show  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  46) git show [hash]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  47) git show --oneline --name-only  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  48) git show --oneline --name-status  
+6f26f5aa (brunostyle 2025-07-07 06:31:42 -0300  49) <!-- 13 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  50) git ls-tree -r --name-only HEAD  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  51) git ls-tree -r --name-only [hash]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  52) git ls-tree -r --name-only HEAD:[nombre-carpeta]  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  53) <!-- 14 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  54) git blame [nombre-archivo]  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  55) <!-- 15 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  56) git reflog  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  57) <!-- 16 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  58) git branch  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  59) git branch -r  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  60) git branch -a  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  61) git branch -v  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  62) git branch -d/-D [nombre-rama]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  63) git branch -m [nombre-rama]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  64) git branch -m [nombre-viejo] [nombre-nuevo]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  65) git branch --merged  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  66) git branch --no-merged  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  67) <!-- 17 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  68) git switch [nombre-rama]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  69) git switch -c [nombre-rama]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  70) git switch --detach [hash]  
+6f26f5aa (brunostyle 2025-07-07 06:31:42 -0300  71) <!-- 18 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  72) git merge [nombre-rama]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  73) git merge --continue  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  74) git merge --abort  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  75) git merge --ff-only [nombre-rama]  
+6f26f5aa (brunostyle 2025-07-07 06:31:42 -0300  76) <!-- 19 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  77) git rebase [nombre-rama]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  78) git rebase --continue  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  79) git rebase --abort  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  80) git rebase -i HEAD~[numero]  
+784fb0ac (brunostyle 2025-07-07 05:59:42 -0300  81) <!-- 20 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  82) git cherry-pick [hash]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  83) git cherry-pick --continue  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  84) git cherry-pick --abort  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  85) git cherry-pick --no-commit [hash]  
+6f26f5aa (brunostyle 2025-07-07 06:31:42 -0300  86) <!-- 21 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  87) git remote  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  88) git remote -v  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  89) git remote show [nombre]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  90) git remote add origin [url]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  91) git remote rename [nombre-viejo] [nombre-nuevo]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  92) git remote remove [nombre]  
+fab6645d (brunostyle 2025-07-07 05:43:56 -0300  93) <!-- 22 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  94) git fetch [url]  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  95) git fetch --prune  
+6f26f5aa (brunostyle 2025-07-07 06:31:42 -0300  96) <!-- 23 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  97) git pull  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  98) git pull --ff-only  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300  99) git pull --rebase  
+fab6645d (brunostyle 2025-07-07 05:43:56 -0300 100) <!-- 24 -->
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300 101) git push  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300 102) git push -u origin main  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300 103) git push --force  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300 104) git push --tags  
+760c98cd (brunostyle 2025-07-11 02:19:41 -0300 105) git push origin --delete [nombre-rama]

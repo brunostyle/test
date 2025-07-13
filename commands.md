@@ -103,3 +103,11 @@ git push -u origin main
 git push --force  
 git push --tags  
 git push origin --delete [nombre-rama]
+<!-- 25 -->
+git grep [texto]
+git grep [texto] -- [archivo]
+git grep [texto] HEAD
+git grep -i [texto]
+git grep -w [texto]
+git grep -c [texto]
+git grep -n [texto]
